@@ -37,13 +37,6 @@
                 var response = new Response<PageableResult<SongDto>>();
                 var userId = int.TryParse(_identityUtility.GetNameIdentifier(), out int result) ? result : 0;
 
-                if (userId == 0)
-                {
-                    response.Error = true;
-                    response.Message = "There was an error getting user id from session";
-                    return response;
-                }
-
                 var query = _context.Songs
                     .Include(e => e.User)
                     .Where(s => s.RegisteredById == userId || s.IsPublic)

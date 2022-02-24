@@ -17,4 +17,8 @@
     <ProjectReference Include="..\AwesomeMusic.Data\AwesomeMusic.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Validators\CommandValidators\SongValidators\" />
+  </ItemGroup>
+
 </Project>

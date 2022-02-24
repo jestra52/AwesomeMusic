@@ -48,7 +48,6 @@
                 response.Result = _mapper.Map<UserDto>(user);
                 response.Message = "User created successfully";
 
-
                 return response;
             }
         }
