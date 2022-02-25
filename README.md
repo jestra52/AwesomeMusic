@@ -1,5 +1,10 @@
 # Awesome Music
 
+## Requirements
+
+- [NET 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+- [Visual Studio 2022](https://visualstudio.microsoft.com) (optional)
+
 ## To run
 
 Just open the solution and run it from Visual Studio.
