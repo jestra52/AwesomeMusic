@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentAssertions" Version="6.5.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="MockQueryable.NSubstitute" Version="5.0.1" />
+    <PackageReference Include="NSubstitute" Version="4.3.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.categories" Version="2.0.6" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
@@ -23,6 +26,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AwesomeMusic.Data\AwesomeMusic.Data.csproj" />
+    <ProjectReference Include="..\AwesomeMusic.Services\AwesomeMusic.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\Songs.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

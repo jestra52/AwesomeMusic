@@ -44,7 +44,7 @@
 
                 if (!request.IncludePublic.GetValueOrDefault())
                 {
-                    query = query.Where(s => !s.IsPublic);
+                    query = query.Where(s => s.RegisteredById == userId);
                 }
 
                 query = query.GetPaged(request.PageSize, request.PageNumber);

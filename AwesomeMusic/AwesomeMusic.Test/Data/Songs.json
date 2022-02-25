@@ -1,0 +1,72 @@
+[
+  [
+    {
+      "id": 1,
+      "name": "I Ran",
+      "artist": "A Flock Of Seagulls",
+      "album": "A Flock Of Seagulls",
+      "year": 1982,
+      "url": "https://www.youtube.com/watch?v=iIpfWORQWhU",
+      "coverUrl": "https://arcticreviewsblog.files.wordpress.com/2020/04/flock.jpg",
+      "isPublic": true,
+      "registeredById": 1,
+      "User": {
+        "Id": 1,
+        "Email": "jestra52@hotmail.com",
+        "Password": "mhyJOZ73!@]",
+        "Name": "Juan C. Estrada"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Zenith",
+      "artist": "Kavinsky",
+      "album": "Zenith",
+      "year": 2022,
+      "url": "https://www.youtube.com/watch?v=-oudxfnyUFE",
+      "coverUrl": null,
+      "isPublic": true,
+      "registeredById": 1,
+      "User": {
+        "Id": 1,
+        "Email": "jestra52@hotmail.com",
+        "Password": "mhyJOZ73!@]",
+        "Name": "Juan C. Estrada"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Self Control",
+      "artist": "Raf",
+      "album": "Self Control",
+      "year": 1984,
+      "url": "https://www.youtube.com/watch?v=1_TQjEn6cpQ",
+      "coverUrl": null,
+      "isPublic": false,
+      "registeredById": 1,
+      "User": {
+        "Id": 1,
+        "Email": "jestra52@hotmail.com",
+        "Password": "mhyJOZ73!@]",
+        "Name": "Juan C. Estrada"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Everybody Wants To Rule The World",
+      "artist": "Tears For Fears",
+      "album": "Songs From The Big Chair",
+      "year": 1985,
+      "url": "https://www.youtube.com/watch?v=aGCdLKXNF3w",
+      "coverUrl": "https://m.media-amazon.com/images/I/81re1DdrrYL._SL1400_.jpg",
+      "isPublic": true,
+      "registeredById": 2,
+      "User": {
+        "Id": 2,
+        "Email": "jestra52@eafit.edu.co",
+        "Password": "mhyJOZ73!@]",
+        "Name": "Juan Alvarez"
+      }
+    }
+  ]
+]
