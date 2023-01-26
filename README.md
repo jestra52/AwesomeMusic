@@ -1,6 +1,10 @@
 # Awesome Music
 
+Development code test for a previous job application.
+
 API url => https://awesomemusicapi.azurewebsites.net/swagger/index.html
+
+**_NOTE:_** Not working anymore since I shutdown the Azure App Service for it.
 
 ## Requirements
 
